@@ -23,10 +23,6 @@ app.get('/', (req, res) => {
 	res.send('Hello from Node.js!'); 
 });
 
-app.listen(port, () => { 
-	console.log(`Server running at http://localhost:${port}`); 
-});
-
 let restaurants = [
 	{ id: 1, name: "Pizza Palace", cuisine: "Italian", rating: 4.5 },
 	{ id: 2, name: "Sushi Central", cuisine: "Japanese", rating: 4.8 }
